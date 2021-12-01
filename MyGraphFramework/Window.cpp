@@ -1,6 +1,8 @@
 #include "Window.h"
 
-Window::WindowClass Window::WindowClass::wndClass;// why the fuck compiler wants this bullshit
+// this will start wndClass 
+// this is needed cus its class
+Window::WindowClass Window::WindowClass::wndClass;
 
 Window::WindowClass::WindowClass() noexcept
 	:
