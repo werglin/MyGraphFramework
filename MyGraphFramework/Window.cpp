@@ -1,5 +1,7 @@
 #include "Window.h"
 
+Window::WindowClass Window::WindowClass::wndClass;// why the fuck compiler wants this bullshit
+
 Window::WindowClass::WindowClass() noexcept
 	:
 		  // gets handle (instance)
